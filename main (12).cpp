@@ -23,10 +23,6 @@ int main()
         return -1;
     }
     
-    if (number > stroka.length()){
-        cout << "Номер цифры больше чем длинна строки, введите данные заного"; // Проверка на излишне большой номер цифры
-        return -1;
-    }
     
     for (int i; i < stroka.length(); i++){
         if (isdigit(stroka[i])){
