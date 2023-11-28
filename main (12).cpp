@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    setlocale(LC_ALL, "Ru");
+    setlocale(LC_ALL, "Russian");
     int count,number;
     string stroka,result,number1;
     
